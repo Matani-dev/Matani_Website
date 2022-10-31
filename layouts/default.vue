@@ -1,6 +1,8 @@
 <template>
     <div class="wrapper">
+        <Logo></Logo>
         <Nuxt />
+        <Footer></Footer>
     </div>
 </template>
 

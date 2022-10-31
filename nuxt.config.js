@@ -1,4 +1,8 @@
 export default {
+  env: {
+    octopusListID: process.env.EMAILOCTOPUS_LIST_ID,
+    octopusAPIKey: process.env.EMAILOCTOPUS_API_KEY,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Matani - Feedback Tool for Designers',
