@@ -28,6 +28,10 @@ p {
     --orange: #FABB18;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .wrapper {
     margin: 40px 3rem;
 }

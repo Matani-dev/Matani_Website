@@ -1,7 +1,6 @@
 export default {
   env: {
-    octopusListID: process.env.EMAILOCTOPUS_LIST_ID,
-    octopusAPIKey: process.env.EMAILOCTOPUS_API_KEY,
+    apiUrl: process.env.API_URL,
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -35,8 +34,16 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    'nuxt-gsap-module'
   ],
+
+  gsap: {
+    extraPlugins: {
+      scrollTo: true,
+      scrollTrigger: true
+    },
+  },
 
   googleFonts: {
     families: {
@@ -52,7 +59,9 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    //baseURL: "64.227.76.212:8080/api/v1",
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

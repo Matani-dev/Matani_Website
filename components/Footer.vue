@@ -10,6 +10,7 @@
             <a href="https://github.com/Matani-dev" target="_blank">Github</a>
             <!--<a href=""><span>SOON</span> Roadmap</a>-->
             <a href="/imprint">Imprint</a>
+			<a href="/privacy-policy">Privacy Policy</a>
         </div>
     </footer>
 </template>

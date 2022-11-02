@@ -1,6 +1,8 @@
 <template>
     <div>
-        <img class="logo" data-aos="fade-down" src="@/assets/images/Logo.svg" alt="Matani Logo" />
+        <nuxt-link to="/">
+            <img class="logo" data-aos="fade-down" src="@/assets/images/Logo.svg" alt="Matani Logo" />
+        </nuxt-link>
     </div>
 </template>
 
