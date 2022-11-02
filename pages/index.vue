@@ -7,8 +7,8 @@
 		<header>
 			<img class="bg" src="@/assets/images/bg.png" alt="Background">
 			<span class="date">📅 Release: Mid-2023</span>
-			<h1 data-aos="fade-up" data-aos-duration="1500" class="gradient padding"><span>Receive Client Feedback with just one click.</span></h1>
-			<p data-aos="fade-up" data-aos-duration="2000">
+			<h1 class="gradient padding animate__text"><span>Receive Client Feedback with just one click.</span></h1>
+			<p class="animate__text">
 				A just now developed software to notify your clients as soon as you uploaded your project progress and to get their
 				feedback. No more time-consuming, misleading Mail traffic.
 			</p>
@@ -26,8 +26,8 @@
 		</header>
 
 		<section class="content">
-			<h2 data-aos="fade-up" data-aos-duration="1500">Client Feedback has never been easier.</h2>
-			<p class="subheading">Matani will be perfectly suited for digital designers, design agencies and cool dudes!</p>
+			<h2 class="animate__text">Client Feedback has never been easier.</h2>
+			<p class="animate__text subheading">Matani will be perfectly suited for digital designers, design agencies and cool dudes!</p>
 
 			<div class="container">
 				<div class="box" ref="box">
@@ -106,8 +106,8 @@
 		</section>
 
 		<section class="cta">
-			<h2 class="gradient padding" data-aos="fade-up" data-aos-duration="1500"><span>Drop us a line or two, we are open for creative minds and collaborations!</span></h2>
-			<a href="https://discord.gg/fNXV9xMc" data-aos-duration="1500" data-aos="fade-up" target="_blank">
+			<h2 class="gradient padding animate__text"><span>Drop us a line or two, we are open for creative minds and collaborations!</span></h2>
+			<a href="https://discord.gg/fNXV9xMc" class="animate__text" target="_blank">
 				<img src="@/assets/images/Discord.svg" alt="Discord Logo">
 			</a>
 		</section>
@@ -137,7 +137,7 @@ export default {
 	},
 	head() {
       return {
-        title: "Matani",
+        title: "Matani - Feedback Tool for Designers",
         meta: [
           // hid is used as unique identifier. Do not use `vmid` for it as it will not work
           {
@@ -233,19 +233,21 @@ export default {
 				ease: 'Power1.easeInOut',
 			})
 
-			// subheading
-			this.$gsap.to(".subheading", {
-				opacity: 1,
-				y: 0,
-				duration: 2,
-				ease: 'Slow.easeInOut',
-				scrollTrigger: {
-					trigger: '.subheading',
-					toggleActions: "restart none none reset",
-					markers: false,
-					end: 'bottom',
-				}
-			})
+			for(let i = 0; i < this.$el.querySelectorAll(".animate__text").length; i++) {
+				let text = this.$el.querySelectorAll('.animate__text')[i]
+
+				this.$gsap.to(text, {
+					opacity: 1,
+					y: 0,
+					duration: 1,
+					scrollTrigger: {
+						trigger: text,
+						toggleActions: "restart none none reset",
+						markers: false,
+						end: 'bottom',
+					}
+				})
+			}
 
 			// Boxes
 			let _delay = 0;
@@ -255,8 +257,7 @@ export default {
 				this.$gsap.to(box, {
 					y: 0,
 					opacity: 1,
-					ease: 'Power4.easeInOut',
-					duration: 1.2,
+					duration: 1,
 					delay: _delay,
 					scrollTrigger: {
 						trigger: '.container',
@@ -302,6 +303,11 @@ export default {
 .slide-leave-to {
   transform: translateY(20px);
   opacity: 0;
+}
+
+.animate__text {
+	opacity: 0;
+	transform: translateY(80px);
 }
 
 .shape {
@@ -568,7 +574,7 @@ section.cta {
 		padding: 8px 20px;
 		margin-top: 30px;
 		border-radius: 8px;
-		transition: 0.3s ease-in-out all;
+		//transition: 0.3s ease-in-out all;
 
 		&:hover {
 			box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
