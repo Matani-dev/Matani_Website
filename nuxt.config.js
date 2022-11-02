@@ -56,7 +56,28 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
+    'vue-plausible',
+    '@nuxtjs/sitemap',
   ],
+
+  sitemap: {
+    hostname: 'https://matani.dev',
+    gzip: true,
+    routes: [
+      '/',
+    ]
+  },
+
+  plausible: {
+    domain: 'matani.dev'
+  },
+
+  publicRuntimeConfig: {
+    plausible: {
+      domain: 'matani.dev',
+      apiHost: 'https://analytics.exord.de',
+    }
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
