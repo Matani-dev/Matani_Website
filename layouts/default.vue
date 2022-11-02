@@ -1,8 +1,12 @@
 <template>
-    <div class="wrapper">
-        <Logo></Logo>
-        <Nuxt />
-        <Footer></Footer>
+    <div>
+        <TopBar></TopBar>
+        <div class="wrapper">
+            
+            <Logo></Logo>
+            <Nuxt />
+            <Footer></Footer>
+        </div>
     </div>
 </template>
 
@@ -15,12 +19,12 @@ h1, h2, h3, h4, h5 {
 p {
     font-family: "Inter", Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: var(--grey);
-    opacity: 0.8;
+    color: var(--light-grey);
 }
 
 :root {
     --grey: #12141D;
+    --light-grey: #2f313a;
     --green: #22E27F;
     --blue: #2B59FF;
     --red: #F23936;

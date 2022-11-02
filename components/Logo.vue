@@ -18,11 +18,24 @@ export default {
 
 div {
     position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
 
     .logo {
         position: absolute;
         top: 0px;
         left: 0px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 641px) {
+    div {
+        justify-content: center;
+        .logo {
+            position: relative;
+        }
     }
 }
 

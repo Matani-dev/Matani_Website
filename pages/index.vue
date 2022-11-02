@@ -6,6 +6,7 @@
 
 		<header>
 			<img class="bg" src="@/assets/images/bg.png" alt="Background">
+			<span class="date">📅 Release: Mid-2023</span>
 			<h1 data-aos="fade-up" data-aos-duration="1500" class="gradient padding"><span>Receive Client Feedback with just one click.</span></h1>
 			<p data-aos="fade-up" data-aos-duration="2000">
 				A just now developed software to notify your clients as soon as you uploaded your project progress and to get their
@@ -26,6 +27,7 @@
 
 		<section class="content">
 			<h2 data-aos="fade-up" data-aos-duration="1500">Client Feedback has never been easier.</h2>
+			<p class="subheading">Matani will be perfectly suited for digital designers, design agencies and cool dudes!</p>
 
 			<div class="container">
 				<div class="box" ref="box">
@@ -182,6 +184,36 @@ export default {
 		},
 
 		animateOnScroll() {
+			// release tag
+			this.$gsap.to(".date", {
+				opacity: 1,
+				y: 0,
+				duration: 1,
+				ease: 'Power1.easeInOut',
+			})
+
+			// input_wrapper
+			this.$gsap.to(".input__wrapper", {
+				opacity: 1,
+				y: 0,
+				duration: 1,
+				ease: 'Power1.easeInOut',
+			})
+
+			// subheading
+			this.$gsap.to(".subheading", {
+				opacity: 1,
+				y: 0,
+				duration: 2,
+				ease: 'Slow.easeInOut',
+				scrollTrigger: {
+					trigger: '.subheading',
+					toggleActions: "restart none none reset",
+					markers: false,
+					end: 'bottom',
+				}
+			})
+
 			// Boxes
 			let _delay = 0;
 			for(let i = 0; i < this.$el.querySelectorAll('.box').length; i++) {
@@ -191,12 +223,12 @@ export default {
 					y: 0,
 					opacity: 1,
 					ease: 'Power4.easeInOut',
-					duration: 2,
+					duration: 1.2,
 					delay: _delay,
 					scrollTrigger: {
 						trigger: '.container',
+						toggleActions: "restart none none reset",
 						markers: false,
-						end: 'bottom',
 					}
       			})
 
@@ -274,8 +306,20 @@ header {
 		left: 0;
 	}
 
-	h1 {
+	.date {
+		opacity: 0;
+		transform: translateY(80px);
 		margin-top: 10rem;
+		margin-bottom: 12px;
+		padding: 8px 10px;
+		font-weight: 500;
+		font-size: 12px;
+		color: #16a34a;
+		background-color: #dcfce7;
+		border-radius: 6px;
+	}
+
+	h1 {
 		font-family: "Lexend Exa", Arial, Helvetica, sans-serif;
 		font-size: 40px;
 		text-align: center;
@@ -335,6 +379,8 @@ header {
 		width: 100%;
 		max-width: 400px;
 		border-radius: 8px;
+		opacity: 0;
+		transform: translateY(80px);
 
 		&.error {
 			border: 1px solid #dc2626;
@@ -382,10 +428,16 @@ section.content {
 	align-items: center;
 
 	h2 {
-		margin-bottom: 40px;
 		font-size: 30px;
 		letter-spacing: -3px;
 		font-weight: 700;
+	}
+
+	.subheading {
+		margin-bottom: 40px;
+		text-align: center;
+		opacity: 0;
+		transform: translateY(120px);
 	}
 
 	.container {
@@ -498,9 +550,21 @@ section.cta {
 }
 
 @media (max-width: 641px) {
+	.shape {
+
+		&.shape__right {
+			right: 0px;
+			top: 30px;
+		}
+	}
+
 	header {
+		padding-top: 0px;
+		.date {
+			margin-top: 60px;
+		}
+
 		h1 {
-			margin-top: 5rem;
 			font-size: 30px;
 			width: 100%;
 			max-width: 100%;
@@ -510,8 +574,22 @@ section.cta {
 			max-width: 100%;
 		}
 
+		.status {
+			max-width: 100%;
+		}
+
 		.input__wrapper {
 			margin-top: 30px;
+		}
+
+		.input__wrapper {
+			input {
+				font-size: 12px;
+			}
+
+			button {
+				font-size: 12px;
+			}
 		}
 	}
 

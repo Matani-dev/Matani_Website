@@ -62,7 +62,9 @@ footer {
 	}
 
 	.left {
-		
+		span {
+			opacity: 0.4;
+		}
 	}
 
 	.right {
@@ -76,6 +78,11 @@ footer {
     footer {
 		flex-wrap: wrap;
 		gap: 20px;
+
+		.right {
+			flex-wrap: wrap;
+			gap: 15px;
+		}
 	}
 }
 
