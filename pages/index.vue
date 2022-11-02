@@ -135,6 +135,39 @@ export default {
 			resizeBtn: false,
 		}
 	},
+	head() {
+      return {
+        title: "Matani",
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'description',
+            name: 'description',
+            content: `A just now developed software to notify your clients as soon as you uploaded your project progress and to get their feedback. No more time-consuming, misleading Mail traffic.`
+          },
+          {
+            property: "og:url",
+            content: this.$route.path,
+          },
+          {
+            property: "og:title",
+            content: "Matani",
+          },
+          {
+            property: "og:description",
+            content: `A just now developed software to notify your clients as soon as you uploaded your project progress and to get their feedback. No more time-consuming, misleading Mail traffic.`,
+          },
+          {
+            property: "og:image",
+            content: "@/assets/images/Matani_og.png",
+          },
+          {
+            property: "og:image:alt",
+            content: "Matani",
+          },
+        ]
+      }
+    },
 	mounted() {
 		this.animateOnScroll();
 	},
