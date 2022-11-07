@@ -7,10 +7,10 @@
 		<header>
 			<img class="bg" src="@/assets/images/bg.png" alt="Background">
 			<span class="date">📅 Release: Mid-2023</span>
-			<h1 class="gradient padding animate__text"><span>Receive Client Feedback with just one click.</span></h1>
+			<h1 class="gradient padding animate__text"><span>Efficient Client Feedback for Digital Designers</span></h1>
 			<p class="animate__text">
-				A just now developed software to notify your clients as soon as you uploaded your project progress and to get their
-				feedback. No more time-consuming, misleading Mail traffic.
+				A just now developed software to notify your clients as soon as you uploaded your digital design 
+				project progress and to get their feedback. No more time-consuming, misleading Mail traffic.
 			</p>
 
 			<!-- Error Message -->
@@ -27,7 +27,7 @@
 
 		<section class="content">
 			<h2 class="animate__text">Client Feedback has never been easier.</h2>
-			<p class="animate__text subheading">Matani will be perfectly suited for digital designers, design agencies and cool dudes!</p>
+			<p class="animate__text subheading">Matani will be perfectly suited for digital designers and design agencies</p>
 
 			<div class="container">
 				<div class="box" ref="box">
@@ -38,19 +38,21 @@
 
 					<h5>Milestone presentation</h5>
 					<p>
-						Upload your project changes and describe the changes using a built-in intuitive description-tool 
-						to easily create a clear presentation of your work for your client.
+						Add your design project and structure it by subdividing it into milestones. Present those step by step by adding files.
+						 Describe project changes by using our intuitive click-and-comment tool.
 					</p>
 				</div>
 
 				<div class="box" ref="box">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon feedback">
-						<path fill-rule="evenodd" d="M12 2.25c-2.429 0-4.817.178-7.152.521C2.87 3.061 1.5 4.795 1.5 6.741v6.018c0 1.946 1.37 3.68 3.348 3.97.877.129 1.761.234 2.652.316V21a.75.75 0 001.28.53l4.184-4.183a.39.39 0 01.266-.112c2.006-.05 3.982-.22 5.922-.506 1.978-.29 3.348-2.023 3.348-3.97V6.741c0-1.947-1.37-3.68-3.348-3.97A49.145 49.145 0 0012 2.25zM8.25 8.625a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zm2.625 1.125a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z" clip-rule="evenodd" />
+						<path d="M12 .75a8.25 8.25 0 00-4.135 15.39c.686.398 1.115 1.008 1.134 1.623a.75.75 0 00.577.706c.352.083.71.148 1.074.195.323.041.6-.218.6-.544v-4.661a6.714 6.714 0 01-.937-.171.75.75 0 11.374-1.453 5.261 5.261 0 002.626 0 .75.75 0 11.374 1.452 6.712 6.712 0 01-.937.172v4.66c0 .327.277.586.6.545.364-.047.722-.112 1.074-.195a.75.75 0 00.577-.706c.02-.615.448-1.225 1.134-1.623A8.25 8.25 0 0012 .75z" />
+						<path fill-rule="evenodd" d="M9.013 19.9a.75.75 0 01.877-.597 11.319 11.319 0 004.22 0 .75.75 0 11.28 1.473 12.819 12.819 0 01-4.78 0 .75.75 0 01-.597-.876zM9.754 22.344a.75.75 0 01.824-.668 13.682 13.682 0 002.844 0 .75.75 0 11.156 1.492 15.156 15.156 0 01-3.156 0 .75.75 0 01-.668-.824z" clip-rule="evenodd" />
 					</svg>
 
-					<h5>Constructive Feedback</h5>
+					<h5>Inspiration</h5>
 					<p>
-						Get specific, constructive feedback through the minimization of misunderstandings.
+						Allow your client to participate in the design process without disturbing your workflow. 
+						Create an Inspiration-Area for your client to add links/files, so you know which style your client wants.
 					</p>
 				</div>
 
@@ -73,33 +75,33 @@
 						<path d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z" />
 					</svg>
 
-					<h5>Self destructive files</h5>
+					<h5>Upload various files</h5>
 					<p>
-						After closing a project, your uploaded files will automatically 
-						delete themselves to guarantee the highest privacy standards for you and your client.
+						Add your design files (JPG, PNG, PDF, and SVG) by drag-and-drop it into your project. After closing a project, 
+						your uploaded files will automatically delete themselves to guarantee the highest privacy standards.
 					</p> 
 				</div>
 
 				<div class="box" ref="box">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon time">
-						<path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z" clip-rule="evenodd" />
+						<path d="M18.75 12.75h1.5a.75.75 0 000-1.5h-1.5a.75.75 0 000 1.5zM12 6a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 6zM12 18a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 0112 18zM3.75 6.75h1.5a.75.75 0 100-1.5h-1.5a.75.75 0 000 1.5zM5.25 18.75h-1.5a.75.75 0 010-1.5h1.5a.75.75 0 010 1.5zM3 12a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5A.75.75 0 013 12zM9 3.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zM12.75 12a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zM9 15.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
 					</svg>
 
-					<h5>Save precious time</h5>
+					<h5>Keep it clean</h5>
 					<p>
-						No more useles feedback meetings by stepping up your feedback game.
+						Create your own project dashboard and customize it for your needs. 
+						Add and delete features you want to give to your clients for more flexibility.
 					</p> 
 				</div>
 
 				<div class="box" ref="box">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon update">
-						<path fill-rule="evenodd" d="M4.755 10.059a7.5 7.5 0 0112.548-3.364l1.903 1.903h-3.183a.75.75 0 100 1.5h4.992a.75.75 0 00.75-.75V4.356a.75.75 0 00-1.5 0v3.18l-1.9-1.9A9 9 0 003.306 9.67a.75.75 0 101.45.388zm15.408 3.352a.75.75 0 00-.919.53 7.5 7.5 0 01-12.548 3.364l-1.902-1.903h3.183a.75.75 0 000-1.5H2.984a.75.75 0 00-.75.75v4.992a.75.75 0 001.5 0v-3.18l1.9 1.9a9 9 0 0015.059-4.035.75.75 0 00-.53-.918z" clip-rule="evenodd" />
+						<path d="M15 3.75H9v16.5h6V3.75zM16.5 20.25h3.375c1.035 0 1.875-.84 1.875-1.875V5.625c0-1.036-.84-1.875-1.875-1.875H16.5v16.5zM4.125 3.75H7.5v16.5H4.125a1.875 1.875 0 01-1.875-1.875V5.625c0-1.036.84-1.875 1.875-1.875z" />
 					</svg>
 
-					<h5>Keep everyone updated</h5>
+					<h5>Feedback Templates</h5>
 					<p>
-						After adding the newest milestone your client will automatically receive a notification about it - 
-						the exact way you decide.
+						Activate and add Feedback Templates for your client to help formulating constructive and helpful feedback.
 					</p> 
 				</div>
 			</div>
