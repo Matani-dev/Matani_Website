@@ -89,8 +89,8 @@
 
 					<h5>Keep it clean</h5>
 					<p>
-						Create your own project dashboard and customize it for your needs. 
-						Add and delete features you want to give to your clients for more flexibility.
+						Create your own project dashboard and customize it based on your preferred design. 
+						You decide what exactly will be displayed to your client. 
 					</p> 
 				</div>
 
