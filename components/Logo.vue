@@ -24,7 +24,7 @@ div {
 
     .logo {
         position: absolute;
-        top: 0px;
+        top: -10px;
         left: 0px;
         margin-top: 40px;
     }
@@ -35,6 +35,7 @@ div {
         justify-content: center;
         .logo {
             position: relative;
+            top: 0px;
         }
     }
 }

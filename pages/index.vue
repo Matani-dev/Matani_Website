@@ -7,7 +7,7 @@
 		<header>
 			<img class="bg" src="@/assets/images/bg.png" alt="Background">
 			<span class="date">📅 Release: Mid-2023</span>
-			<h1 class="gradient padding animate__text"><span>Efficient Client Feedback for Digital Designers</span></h1>
+			<h1 class="gradient padding animate__text"><span>Efficient Client Feedback for your Digital Design Projects</span></h1>
 			<p class="animate__text">
 				A just now developed software to notify your clients as soon as you uploaded your digital design 
 				project progress and to get their feedback. No more time-consuming, misleading Mail traffic.
@@ -26,8 +26,7 @@
 		</header>
 
 		<section class="content">
-			<h2 class="animate__text">Client Feedback has never been easier.</h2>
-			<p class="animate__text subheading">Matani will be perfectly suited for digital designers and design agencies</p>
+			<h2 class="animate__text">Perfectly suited for digital designers and design agencies</h2>
 
 			<div class="container">
 				<div class="box" ref="box">
@@ -472,6 +471,8 @@ section.content {
 		font-size: 30px;
 		letter-spacing: -3px;
 		font-weight: 700;
+		margin-bottom: 30px;
+		text-align: center;
 	}
 
 	.subheading {
