@@ -1,7 +1,7 @@
 <template>
     <div>
         <nuxt-link to="/">
-            <img class="logo" data-aos="fade-down" src="@/assets/images/Logo.svg" alt="Matani Logo" />
+            <img class="logo" data-aos="fade-down" data-aos-duration="1500" src="@/assets/images/Logo.svg" alt="Matani Logo" />
         </nuxt-link>
     </div>
 </template>
@@ -27,6 +27,7 @@ div {
         top: -10px;
         left: 0px;
         margin-top: 40px;
+        width: 140px;
     }
 }
 

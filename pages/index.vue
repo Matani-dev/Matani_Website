@@ -108,7 +108,7 @@
 
 		<section class="cta">
 			<h2 class="gradient padding animate__text"><span>Drop us a line or two, we are open for creative minds and collaborations!</span></h2>
-			<a href="https://discord.gg/fNXV9xMc" class="animate__text" target="_blank">
+			<a href="https://discord.gg/pzypEhXQUc" class="animate__text" target="_blank">
 				<img src="@/assets/images/Discord.svg" alt="Discord Logo">
 			</a>
 		</section>

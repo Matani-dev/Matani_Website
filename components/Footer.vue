@@ -6,7 +6,7 @@
 
         <div class="right">
             <a href="https://www.linkedin.com/company/matani/" target="_blank">LinkedIn</a>
-            <a href="https://discord.gg/fNXV9xMc" target="_blank">Discord</a>
+            <a href="https://discord.gg/pzypEhXQUc" target="_blank">Discord</a>
             <a href="https://github.com/Matani-dev" target="_blank">Github</a>
             <!--<a href=""><span>SOON</span> Roadmap</a>-->
             <a href="/imprint">Imprint</a>
