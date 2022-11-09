@@ -160,7 +160,7 @@ export default {
           },
           {
             property: "og:image",
-            content: "@/assets/images/Matani_og.png",
+            content: "https://exord-files.fra1.digitaloceanspaces.com/matani/Matani_og.png",
           },
           {
             property: "og:image:alt",
