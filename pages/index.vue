@@ -100,7 +100,7 @@
 
 					<h5>Feedback Templates</h5>
 					<p>
-						Activate and add Feedback Templates for your client to help formulating constructive and helpful feedback.
+						Activate and add Feedback templates for your client to help formulating constructive and helpful feedback.
 					</p> 
 				</div>
 			</div>

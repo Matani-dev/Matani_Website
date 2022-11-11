@@ -36,6 +36,10 @@ p {
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .wrapper {
     margin: 40px 3rem;
 }
